@@ -1,0 +1,35 @@
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) { 
+	.click-target-container *, .top-sites-list * {
+		color: #fff !important;
+		text-shadow: 1px 1px 1px #000 !important;
+	}
+	body {
+		background: url(wallpaper.jpg) no-repeat 0px -92px !important;
+		background-size: cover !important;
+	}
+	.top-site-outer .tile {
+		background-color: var(--card-op) !important;
+		backdrop-filter: blur(10px) !important;
+		border: 1px solid rgba( 255, 255, 255, 0.1 ) !important;
+	}
+	.top-site-outer:is(:hover) .tile {
+		border: 1px solid rgba( 255, 255, 255, 0 ) !important;
+		backdrop-filter: blur(0px) !important;
+		box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
+		transition: backdrop-filter 0.2s;
+	}
+	.top-sites-list:not(.dnd-active) .top-site-outer:is(.active, :focus, :hover) {
+		background-color: rgba( 255, 255, 255, 0.25 ) !important;
+		backdrop-filter: blur(10px) !important;
+		transition: background-color 0.5s !important;
+		transition: backdrop-filter 0.5s !important;
+	}
+	.top-sites-list:not(.dnd-active) .top-site-outer {
+		background-color: rgba( 255, 255, 255, 0 ) !important;
+	}
+	.search-wrapper .search-handoff-button, .search-wrapper input {
+		background-color: var(--card-op) !important;
+		backdrop-filter: blur(10px) !important;
+		border: 1px solid rgba( 255, 255, 255, 0.1 ) !important;
+	}
+}
