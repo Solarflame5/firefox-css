@@ -22,6 +22,9 @@
 	.top-sites-list:not(.dnd-active) .top-site-outer {
 		background-color: rgba( 255, 255, 255, 0 ) !important;
 	}
+	.top-site-outer .top-site-icon {
+		background-color: rgba( 255, 255, 255, 0 ) !important;
+	}
 	.search-wrapper .search-handoff-button, .search-wrapper input {
 		background-color: var(--card-op) !important;
 		backdrop-filter: blur(10px) !important;
