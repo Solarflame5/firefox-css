@@ -13,16 +13,11 @@
 		border: 1px solid rgba( 255, 255, 255, 0.1 ) !important;
 	}
 	.top-site-outer:is(:hover) .tile {
-		border: 1px solid rgba( 255, 255, 255, 0 ) !important;
-		backdrop-filter: blur(0px) !important;
-		box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
-		transition: backdrop-filter 0.2s;
+		background-color: rgba( 255, 255, 255, 0.25 ) !important;
+		transition: background-color 0.2s;
 	}
 	.top-sites-list:not(.dnd-active) .top-site-outer:is(.active, :focus, :hover) {
-		background-color: rgba( 255, 255, 255, 0.25 ) !important;
-		backdrop-filter: blur(10px) !important;
-		transition: background-color 0.5s !important;
-		transition: backdrop-filter 0.5s !important;
+		background-color: rgba( 255, 255, 255, 0 ) !important;
 	}
 	.top-sites-list:not(.dnd-active) .top-site-outer {
 		background-color: rgba( 255, 255, 255, 0 ) !important;
