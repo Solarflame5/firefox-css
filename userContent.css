@@ -10,6 +10,7 @@
 	.top-site-outer .tile {
 		background-color: var(--card-op) !important;
 		backdrop-filter: blur(10px) !important;
+		background-color: rgba( 0, 0, 0, 0.25 ) !important;
 		border: 1px solid rgba( 255, 255, 255, 0.1 ) !important;
 	}
 	.top-site-outer:is(:hover) .tile {
@@ -23,11 +24,12 @@
 		background-color: rgba( 255, 255, 255, 0 ) !important;
 	}
 	.top-site-outer .top-site-icon {
-		background-color: rgba( 255, 255, 255, 0 ) !important;
+		background-color: rgba( 0, 0, 0, 0 ) !important;
 	}
 	.search-wrapper .search-handoff-button, .search-wrapper input {
 		background-color: var(--card-op) !important;
 		backdrop-filter: blur(10px) !important;
+		background-color: rgba( 0, 0, 0, 0.25 ) !important;
 		border: 1px solid rgba( 255, 255, 255, 0.1 ) !important;
 	}
 }
